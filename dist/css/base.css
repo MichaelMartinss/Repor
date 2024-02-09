@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+html {
+  font-family: 'Open Sans', sans-serif !important;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+#myCarousel {
+  max-width: 1024px;
+  min-height: 450px;
+  padding: 0 !important;
+}
+#myCarousel .nav a small {
+  display:block;
+}
+#myCarousel .nav {
+  background:#eee;
+}
+#myCarousel .nav a {
+  border-radius:0px;
+}
+
+.slide { margin-bottom: 18px !important }
+
+.text-bold { font-weight: bold; }
+.panel > .panel-footer {
+  background: transparent;
+  border: none;
+}
+
+.panel-interno { min-height: 320px; background-color: #fff; }
+.panel-interno > .panel-heading {
+  color: #000;
+  background-color: #eee;
+  border-color: #eee;
+}
+
+.panel-default { min-height: 320px; background-color: #EEEEEE; }
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #14928C;
+  border-color: #14928C;
+}
+
+.panel-warning { min-height: 320px; background-color: #EEEEEE; }
+.panel-warning > .panel-heading {
+  color: #fff;
+  background-color: #F37226;
+  border-color: #F37226;
+}
+
+.panel-danger { min-height: 320px; background-color: #EEEEEE; }
+.panel-danger > .panel-heading {
+  color: #fff;
+  background-color: #ED1C24;
+  border-color: #ED1C24;
+}
+
+.btn-orange {
+  border: solid 1px #F37226;
+  background-color: transparent;
+  color: #F37226;
+}
+.btn-green {
+  border: solid 1px #14928C;
+  background-color: transparent;
+  color: #14928C;
+}
+.btn-red {
+  border: solid 1px #ED1C24;
+  background-color: transparent;
+  color: #ED1C24;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.container {
+  width: auto;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* Customize container */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+#map {
+  height: 280px;
+  width: 100%;
+}
+
+.carousel {
+  margin-bottom: 0;
+  padding: 0px 30px 0px 30px;
+}
+/* The controlsy */
+.carousel-control {
+  left: -12px;
+  height: 40px;
+  width: 40px;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 45px;
+}
+.carousel-control.right {
+  right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+  background: #cecece;
+}
+.carousel-indicators .active {
+  background: #428bca;
+}
+.panel-body > .item-group {
+  margin-top: 40px;
+}
+.item-group > .item-list {
+  border-bottom: dashed 1px #ccc;
+  padding: 5px 5px 15px 3px;
+}

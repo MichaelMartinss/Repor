@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+html, body { background-color: #fff; padding: 0; margin: 0; }
+body{ padding-top: 70px; }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: @color_primary !important;
+}
+
+.navbar-brand{  font-size: 2rem !important; padding: 15px 15px !important; }
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{
+    font-size: 2rem !important;
+    color:#fff;
+    background: transparent;
+}
+.navbar-inverse { background-color: @color_primary !important; }
+
+.space_top {
+    margin-top: 18px;
+}
+
+.space_bottom {
+     margin-bottom: 18px;
+}
+
+.panel-heading {
+    background-color: @color_title_background !important;
+    color: @color_title_font !important;
+}
+
+@color_primary : #306BBD;
+@color_secondary : #0F4098;
+@color_background: #EAEBEE;
+@color_title_background: #EAEBEE;
+@color_title_line: #2C66CE;
+@color_title_font: #4477D2;
